@@ -1,0 +1,138 @@
+body {
+  font-family: Arial;
+  padding: 30px;
+  color: #121212;
+
+  background-image: url(assets/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.app {
+  max-width: 600px;
+
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+  background-color: #c9c9c9ef;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4c9ed4;
+  color: #FFF;
+
+  padding: 5px 10px;
+  margin-right: 10px;
+
+  border: 0;
+  border-radius: 3px;
+
+  transition: 0.2s;
+  opacity: .8;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.todo {
+  background-color: #e4e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.complete {
+  background-color: #5cb85c;
+  font-weight: 600;
+}
+
+.remove {
+  background-color: #e23a3a;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input,select {
+  padding: 5px;
+  margin: 5px;
+
+  width: 12rem;
+  
+  border: 1px solid #DDD;
+  border-radius: 3px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+  border-bottom: 1px solid #9c9c9c;
+  padding-bottom: 20px;
+
+}
+
+.filter {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #9c9c9c;
+  padding-bottom: 20px;
+
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 3rem;
+
+
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
